@@ -4,8 +4,7 @@ import Receptionist from "./Receptionist";
 const Canvas = (props) => {
   const canvasRef = useRef(null);
 
-  const player = new Receptionist({ x: 0, y: 0 });
-  console.log(player);
+  const player = new Receptionist({ x: 460, y: 235 });
 
   const draw = (ctx) => {
     ctx.strokeStyle = "#228B22";
